@@ -59,3 +59,26 @@ namaSiswa.pop();
 alert(namaSiswa);
 
 // FOR LOOP
+// 3 statement
+const namaGuru = ["bambang", "joko", "burhan", "doni"];
+// console.log(namaGuru.length);
+// digunakan untuk mengetahui panjang sebuah data
+// console.log(namaGuru);
+for (let i = 0; i < namaGuru.length; i++) {
+  console.log(namaGuru[i]);
+}
+// ini akan terlooping ke 10 kali
+
+// while
+// let i = 0;
+// while (i < 10) {
+//   i++;
+//   console.log("kevina maydiva");
+// }
+
+// do while
+let i = 0;
+do {
+  i++;
+  console.log("kevina maydiva");
+} while (i < 10);
