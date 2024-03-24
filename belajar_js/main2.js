@@ -23,7 +23,7 @@ alert(`Total saldo anda adalah ${totalSaldo}`);
 
 let hari = new Date().getDay();
 // digunakan untuk mengambil variabel hari yang ada dan yang terkini
-let namaHari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+let namaHari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
 // ini merupakan array yang berisikan hari hari dalam bahasa indonesia
 alert(`Hari ini adalah hari ${namaHari[hari]}`);
 // alret yang menampilkan pesan nama hari berdasarkan nilai 'hari' yang diperoleh sebelumnya {namaHari[hari]} digunakan untuk mengakses nama hari sesuai dengan nilai array 'hari' dari 'namaHari'
